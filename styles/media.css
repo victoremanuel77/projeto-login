@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 80vw;
+    
+    }
+
+    div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background: #fff url('../images/login.jpg')   no-repeat left center;
+        background-size: cover;
+        height: 500px;
+    }
+
+    div#formulario {
+        float: right;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section#login {
+        width: 950px;
+    }
+
+    div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+        background: #fff url('../images/login.jpg')   no-repeat left center;
+        background-size: cover;
+        height: 500px;
+    }
+
+    div#formulario {
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+}

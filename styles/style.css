@@ -1,16 +1,54 @@
 @charset "UTF-8";
 
-/* Paleta de cores: 
+:root {
+    --main-color:  #1c253e;
+    --segunda-cor: #c4cae1;
+    --terceira-cor: #616c90;
+    --quarta-cor: #7883a9;
+}
     
-    #1c253e
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    #c4cae1
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
 
-    #616c90
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
 
-    #7883a9
+section#login {   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 250px;
+    height: 500px;
+    border-radius: 15px; 
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+}
 
-    #8a94b8
+div#imagem {
+    display: block;
+    background: #fff url('../images/login.jpg')   no-repeat left center;
+    background-size: cover;
+    height: 200px;
+}
 
-*/
-    
+div#formulario {
+    display: block;
+    padding: 10px;
+}
